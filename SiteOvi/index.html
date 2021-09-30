@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>   
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="https://use.typekit.net/ftz0hjc.css">
+	<link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light py-0 ps-4">
+		<div class="container px-5">
+			<a class="navbar-brand" href="index.html">
+				<img src="elements/logo.svg" alt="" width="40" height="40">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#expandme">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="expandme">
+				<div class="navbar-nav ms-auto">
+					<a href="#" class="nav-item nav-link">PROJECTS</a>
+					<a href="#" class="nav-item nav-link">ABOUT</a>
+					<a href="#" class="nav-item nav-link">CONTACT</a>
+				</div>
+			</div>	
+		</div>  
+	</nav>
+	
+	<div class="container-fluid" id="homepage-illustration">
+	<img class="img-fluid hologram-full float-end" id="hologram" src="elements/holograms.svg">
+	<img class="float-hidden hologram-phone" id="hologram" src="elements/1hologram.svg">
+	<div class="container homepage-section">
+		<h1>OV</h1>
+		<h5> I will be sharing my journey and projects
+			on artificial  intelligence topics, such as
+			machine learning and deep learning.
+		</h5>
+		<a role="button" class="btn btn-primary btn-lg" href="#projects-page">PROJECTS &#8594;</a>	
+		<a role="button" class="btn btn-primary btn-lg" href="#">ABOUT ME </a>
+	</div>
+	</div>
+
+	<section id="projects-page">
+		<div class="container pt-5">
+			<div class="row ">
+				<div class="col-sm-6">
+					<h4 class=" pt-5 mb-0 projects-title mx-5 px-3">PROJECTS PAGE</h1>
+			        <img src="elements/Line.png" class="line mx-5 px-3">
+					<p class="text pt-5 mx-5 px-3">On the right are the projects which I have currently released or is about to be released. A video on how it was done will be released on YouTube too.</p>
+				</div>
+				<div class="col-sm-6">
+					<div class="slideshow-container">
+
+						<!-- Full-width images with number and caption text -->
+						<div class="mySlides fade">
+						  <img src="elements/1.svg" class="projects-elements" style="width:60%">
+						  <div class="text2"><a href="#" class="title-project">OSRS Predicting Price Rises</a></div>
+						</div>
+					  
+						<div class="mySlides fade">
+						  <img src="elements/2.svg" class="projects-elements" style="width:60%">
+						  <div class="text2"><a href="#" class="title-project">Object Detector With A Neural Network</a></div>
+						</div>
+					  
+						<div class="mySlides fade">
+						  <img src="elements/3.svg" class="projects-elements" style="width:60%;">
+						  <div class="text2"><a href="#" class="title-project">Neural Network Written In Python</a></div>
+						</div>
+					  
+						<!-- Next and previous buttons -->
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					  </div>
+					  <br>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="elements-page">
+		<div class="container elements-container">
+			<div class="container-element row row-cols-2 justify-content-sm-center">
+			  <div class="col col-lg-2">
+				  <img src="elements/Keras.png" class="elements-img img1">
+			  </div>
+			  <div class="col col-lg-2">
+				<img src="elements/Group 190.png" class="elements-img img01">
+			  </div>
+			  <div class="col col-lg-2">
+				<img src="elements/Tensorflow.png" class="elements-img img1 img2">
+			  </div>
+			  <div class="col col-lg-2">
+				<img src="elements/Python.png" class="elements-img img01 img2">
+			  </div>
+			</div>
+		</div>	
+		<img class="img-fluid small-circle" src="elements/smallcircle.svg">
+	</section>
+	<section id="about-me">
+		<div class="container container-2 pt-5">
+			<div class="row row-2">
+				<div class="col-sm-6 about-me-col">
+					<h4 class=" pt-5 about-me mb-0 projects-title h4-2 mx-5 px-3">ABOUT ME</h1>
+			        <img src="elements/Line.png" class="line line-2 mx-5 px-3">
+					<p class="text text-2 pt-5 mx-5 px-3">I'm currently studying computer science, at the University of London,
+						 and I work as a QA Automation Engineer. During my spare time,
+						 I enjoy automating complex tasks with artificial intelligence concepts.</p>
+				</div>
+				<div class="col-sm-6">
+					<div class="slideshow-container">
+						<!-- Full-width images with number and caption text -->
+						<div class="mySlides2">
+						  <img src="elements/about-me-element3.png" class="projects-elements-2">
+						  <img src="elements/ovi.svg" class="man-illustration">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>				
+		<img class="img-fluid big-circle" src="elements/bigcircle.svg">
+	</section>
+
+	<section id="contact-section">
+		<div class="container div-contact">
+			<h2 class="contact-h1">CONTACT</h2>
+			<img src="elements/Line.png" class="line-contact">
+			<h4 class="contact-h4">Contact me and I will get back as soon as possible</h4>
+			<div class="mb-3">
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+			  </div>
+			<div class="mb-3">
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+			  </div>
+			  <div class="mb-3">
+				<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="3"></textarea>
+			  </div>
+			  <a role="button" class="btn btn-primary btn-lg btn-send" href="#"><img src="elements/send.png" class="send-icon"> SEND </a>
+		</div>
+		<div class="pc">
+		<img src="elements/contact-background.svg" class="pc-illustration">
+		<img src="elements/contact-phone.svg" class="pc-phone">
+		<img src="elements/arond.png" class="hologram2">
+	</div>
+	</section>
+
+	<section class="footer">
+		<div class="container container-footer">
+			<p class="text-footer">© Copyright OV. All Rights Reserved •<a href="#" data-toggle="modal" class="privacy-policy" data-target="privacy-modal">Privacy Policy</a>• Located in Manchester, UK</p>
+		</div>
+	</section>
+
+	<script src="js.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1274 @@
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-weight:500;
+}
+
+h1 {
+    font-size: 73px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h5 {
+    color: #D8D8D8;
+    margin: 10px 10px;
+}
+
+h5 {
+    word-spacing: 1px;
+    line-height: 1.3;
+    width: 50%;
+    margin-top: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #3367B1 !important;
+}
+
+.navbar-nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-right: 15px;
+    
+}
+
+.navbar-toggler-icon {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+.nav-item {
+    color: #D8D8D8 !important;
+}
+
+.navbar-nav a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px #D8D8D8;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.navbar-nav a:hover:after { 
+    transform: scaleX(1); 
+} 
+
+#homepage-illustration {
+    background-image: url(../SiteOvi/elements/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+
+.section-one {
+    padding-top: 15%;
+}
+
+.ov-firstpage {
+    padding-left: 120px;
+}
+
+#hologram {
+    width: 40%;
+    height: 50%;
+    margin-top: 30px;
+    animation-duration: 1.3s;
+    animation-name: animateLogo;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.hologram-phone {
+    display: none;
+}
+
+/* ANIMATION */
+
+@keyframes animateLogo {
+    from {
+        transform: translateX(0) translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0) translateY(70px);
+        opacity: 1;
+    }
+}  
+
+.homepage-section {
+    width: 70%;
+    padding-top: 10.5rem !important;
+
+}
+
+#projects-page {
+    height: 600px;
+    background-color: #E3E3E3;
+}
+
+.projects-title {
+    font-weight: 400;
+}
+
+.line {
+    width: 100px;
+    margin-top: -10px;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 30px;
+    background-color: #3972C4;
+    color: #CECECE;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 1.5rem 10px;
+    padding: 1.0rem 1.8rem !important;
+}
+
+.btn:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    outline: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+ .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -22px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    text-align: center;
+    right: 15%;
+    border: 0.5px solid #707070;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+  }
+  
+
+ .text {
+    color: #2e2e2e;
+    padding-top: 40px !important;
+ }
+  
+  /* Caption text */
+  .text2 {
+    color: #666666;
+    font-size: 15px;
+    bottom: 8px;
+    width: 55%;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 15px;
+    margin: 0 auto;
+  }
+  
+  .title-project {
+      text-decoration: none;
+      color: #2e2e2e;
+      font-weight: 500;
+  }
+  
+  .projects-elements {
+      margin: 30px 40px 30px 0px;
+  }
+
+  
+  .active:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    opacity: 1 !important;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  #elements-page {
+      height: 400px;
+      width: 100%;
+      background-image: linear-gradient(to right, #799BCA, #3367B1);
+  }
+
+  .elements-container {
+      padding-top: 150px;
+  }
+
+  .elements-img {
+      width: 50%;
+  }
+
+  .container-element {
+      position: relative;
+      left: 50px;
+  }
+
+/* PAGE CIRCLE DECORATION */ 
+.small-circle { 
+    width: 130px;
+    float: right;
+    position: relative;
+}
+
+.big-circle {
+    width: 180px;
+    position: relative;
+    /* bottom: 180px; */
+    top: -150px;
+}
+
+/* ABOUT ME */
+#about-me {
+    height: 600px;
+    background-color: #DDE1E8;
+}
+
+.projects-elements-2 {
+    width: 65%;
+    margin: 30px 30px;
+}
+
+.man-illustration {
+    width: 120px;
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+.mySlides2 {
+    position: relative;
+    right: 80px;
+}
+
+/* CONTACT */
+
+#contact-section {
+    background-color: #E3E3E3;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.div-contact {
+    width: 60%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.line-contact {
+    position: relative;
+    top: -10px;
+}
+
+.contact-h1 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+
+.contact-h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e2e;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+    position: relative;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.send-icon {
+    width: 20px;
+    margin-right: 2px;
+}
+
+.btn-send {
+    color: #E3E3E3 !important;
+    position: relative;
+    z-index: 5;
+}
+
+.pc-illustration {
+    position: relative;
+    width: 70%;
+    top: -500px;
+    left: 200px;
+    z-index: 1;
+}
+
+.hologram2 {
+    position: relative;
+    top: -800px;
+    width: 7%;
+    left: 25%;
+    animation-duration: 1.5s;
+    animation-name: animateLogo;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 3;
+}
+
+.pc-phone {
+    visibility: hidden;
+}
+
+
+/* FOOTER */
+.footer {
+    height: 70px;
+    background-color: #3367B1;
+    color: #D8D8D8;
+}
+
+.text-footer {
+    padding-top: 20px;
+}
+
+.container-footer {
+    text-align: center;
+}
+
+.privacy-policy {
+    color: #00123B;
+}
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+  }
+
+  /* MEDIA QUERIES */
+
+  /* Large Screens */
+
+  @media (min-width: 1200px) {
+    .navbar .px-5 {
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+    }
+    #hologram {
+          height: 60%;
+      }
+    .projects-title, .text, .line {
+        margin: 0 !important;
+        position: relative;
+        left: 150px;
+    }
+
+    .homepage-section h1, h5 {
+        position: relative;
+        left: 150px;
+        width: 470px;
+    }
+    .homepage-section {
+        width: 100%;
+    }
+
+    .homepage-section .btn {
+        position: relative;
+        left: 150px;
+    }
+
+    .projects-title, .text {
+        width: 420px;
+    }
+    .text-2 {
+        width: 450px;
+    }
+    .mySlides {
+        position: relative;
+        right: 120px;
+    }
+    .next {
+        right: 200px;
+    }
+    .projects-elements img {
+        width: 70% !important;
+    }
+    .text {
+       letter-spacing: 0.2px;
+       line-height: 1.6;   
+    }
+    .line-2 {
+        width: 100px;
+    }
+  }
+
+  @media (min-width: 2000px) {
+      #hologram {
+          height: 65%;
+      }
+      #homepage-illustration {
+          height: 700px;
+      }
+      .airplane {
+        margin-left: 20%;
+        width: 50%;
+    }
+    /* .pc-illustration {
+        width: 10%;
+        margin-left: 10%;
+    } 
+    .hologram2 {
+        width: 7%;
+    } */
+    .hologram2 {
+        left: -70%;
+        top: -450px;
+    }
+    #contact-section {
+        height: 900px !important;
+    }
+  }
+
+  @media (min-width: 2200px) {
+      .pc-illustration {
+          top: -600px;
+      }
+      .hologram2 {
+          top: -550px;
+      }
+  }
+
+   /* IPhone 6/7/8 PLUS */
+   @media (min-width: 410px) and (max-width: 415px) {
+    .man-illustration {
+        left: 170px;
+        top: -170px;
+    }
+    .projects-elements-2 {
+        left: 40px !important;
+    }
+    .about-me-col {
+        position: relative;
+        left: 30px;
+    }
+    .big-circle {
+        top: -220px !important;
+    }
+    #contact-section {
+        height: 800px !important;
+    }
+    .mySlides2 {
+        left: 0 !important;
+    }
+}
+
+/* Mobile */
+  @media (min-width: 320px) and (max-width: 767.98px){ 
+    html, body {
+        overflow-x: hidden;
+    }
+    #homepage-illustration {
+        background-image: url(../SiteOvi/elements/iphonex.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hologram-full {
+        display: none;
+    }
+    .hologram-phone {
+        display: block;
+        float: right;
+    }
+    #hologram {
+        margin-top: 200px;
+        width: 30%;
+    }
+
+    @keyframes animateLogo {
+        from {
+            transform: translateX(0) translateY(80px);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0) translateY(120px);
+            opacity: 1;
+        }
+    } 
+    .homepage-section {
+        width: 100%;
+        padding-top: 8.5rem !important;
+        padding-right: 1.0rem;
+        position: absolute;
+    }
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h5 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .btn-lg {
+        display: none;
+    }
+    #projects-page {
+        height: 650px;
+    }
+    .next {
+        margin-right: -30px;
+        margin-top: -40px;
+    }
+    .container, .container-fluid {
+        padding-left: 0 !important;
+    }
+    .text {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+    .projects-title {
+        text-align: center;
+    }
+    .line {
+        visibility: hidden;
+    }
+    .text2 {
+        width: 80%;
+        font-size: 12px;
+    }
+    .img2 {
+        margin-top: 3.5rem;
+    }
+    .elements-container {
+        padding-top: 100px;
+    }
+    .img1 {
+        position: relative;
+        left: 15px;
+    }
+    .img01 {
+        position: relative;
+        right: 15px;
+    }
+    #elements-page {
+        height: 440px;
+    }
+    .small-circle {
+        width: 70px;
+        top: 20px;
+    } 
+    #about-me {
+        height: 710px;
+    }
+    .mySlides2 {
+        text-align: center;
+        left: 5%;
+    }
+    .projects-elements-2 {
+        width: 55%;
+        position: relative;
+        left: 20px;
+    }
+    .man-illustration {
+        width: 80px;
+    }
+    .big-circle {
+        width: 80px;
+        top: 20px;
+    }
+    .pc-illustration {
+        left: 5%;
+     }
+     .airplane {
+         visibility: hidden;
+     }
+     .div-contact {
+         width: 100%;
+     }
+     .pc {
+         margin: 0 auto;
+         position: relative;
+         top: 42%;
+         left: 22%;
+     }
+     .pc-illustration {
+         visibility: hidden;
+     }
+     .hologram2 {
+         left: -160px;
+         top: -580px !important;
+         width: 15%;
+     }
+     #contact-section {
+         overflow-x: hidden;
+         height: 750px;
+     }
+     .btn-send {
+         display: block;
+         width: 32%;
+         margin: 0 auto;
+     }
+     .send-icon {
+         margin: 0;
+     }
+     .form-control {
+         width: 80%;
+     }
+     .pc-phone {
+         visibility: visible;
+         width: 70%;
+         position: relative;
+         top: -500px;
+         left: 15px;
+         z-index: 1;
+     }
+     .contact-h4 {
+         font-size: 1rem;
+         margin-left: 5px;
+         margin-right: 5px;
+         margin-top: 10px;
+     }
+     .text-footer {
+         padding-top: 10px;
+     }
+     .container-footer {
+         width: 65%;
+         font-size: 12px;
+         padding-top: 10px;
+     }
+  }
+
+  /* IPAD */
+  @media (min-width: 768px) and (max-width: 1025px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    #homepage-illustration {
+        background-image: url(../SiteOvi/elements/iPad.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hologram-full {
+        display: none;
+    }
+    .hologram-phone {
+        display: block;
+        float: right;
+    }
+    #hologram {
+        margin-top: 48%;
+        width: 25%;
+    }
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+        width: 90%;
+        font-size: 6.5rem !important;
+    }
+    h5 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+        padding-left: 100px;
+        padding-top: 10px;
+        top: 320px;
+        font-size: 2rem;
+    }
+    .btn {
+        visibility: hidden;
+    }
+    .homepage-section {
+        width: 100%;
+        padding-top: 11.5rem !important
+    }
+    .text2 {
+        width: 90%;
+    }
+    #projects-page {
+        height: 500px;
+    }
+    .next {
+        margin-right: -35px;
+        margin-top: -40px;
+    }
+    .img2 {
+        margin-top: 3.5rem;
+    }
+    .elements-container {
+        padding-top: 80px;
+    }
+    .elements-img {
+        width: 30%;
+    }
+    .img1 {
+        position: relative;
+        left: 55px;
+    }
+    .img01 {
+        position: relative;
+        left: 55px;
+    }
+    .man-illustration {
+        top: -80px;
+        right: 0;
+        left: 150px;
+    }
+    .text-2 {
+        margin-right: 0 !important;
+    }
+    .small-circle {
+        width: 100px;
+        bottom: 50px;
+    }
+    .big-circle {
+        width: 130px;
+        top: -200px;
+    }
+    .pc-illustration {
+        left: 5%;
+     }
+     .airplane {
+         margin-top: 150px;
+     }
+     .pc-illustration {
+         visibility: hidden;
+     }
+     .pc-phone {
+         visibility: visible;
+         width: 40%;
+         position: relative;
+         top: -360px;
+         left: 37%;
+         z-index: 1;
+     }
+     #contact-section {
+         height: 850px;
+     }
+     .btn-send {
+         visibility: visible;
+         width: 30%;
+     }
+     .form-control {
+         width: 90%;
+     }
+     .hologram2 {
+         left: 10%;
+         top: -400px;
+     }
+  }
+
+  /* IPHONE 5 */
+ @media (width: 320px) {
+     .homepage-section {
+         padding-top: 5.5rem !important;
+     }
+     #hologram {
+         margin-top: 150px !important;
+     }
+     .text2 {
+         width: 90% !important;
+     }
+     .line {
+         margin-left: 6.5rem !important;
+     }
+     .small-circle {
+         width: 50px;
+         top: 70px;
+     }
+     .text-2 {
+         padding-top: 0;
+     }
+     .projects-elements-2 {
+         width: 50%;
+     }
+     .mySlides2 {
+         text-align: center;
+     }
+     #about-me {
+         height: 650px;
+     }
+     .big-circle {
+         width: 25%;
+         bottom: 50px;
+     }
+     .man-illustration {
+         width: 70px;
+         top: 50px;
+         right: 0;
+     }
+     .footer {
+         height: 70px !important;
+     }
+     .projects-title {
+         left: 0 !important;
+     }
+     h5 {
+         font-size: 16px;
+     }
+     #elements-page {
+         height: 400px !important;
+     }
+     .elements-container {
+         padding-right: 0 !important;
+     }
+     .pc-phone {
+         visibility: visible;
+         position: relative;
+         margin-top: -500px;
+         left: 10px !important;
+     }
+ }
+
+ @media (min-width: 1025px) and (max-width: 1199px) {
+     html, body {
+         overflow-x: hidden;
+     }
+     .next {
+         right: 10%;
+     }
+     .pc-illustration {
+        left: 10%;
+        top: -350px;
+     }
+     .hologram2 {
+         left: -150px;
+         top: -750px;
+     }
+ }
+
+ @media (min-width: 1026px) and (max-width: 1998px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    #homepage-illustration {
+        height: 700px;
+    }
+    .man-illustration {
+        width: 100px;
+        right: 0;
+    }
+    .small-circle {
+        width: 100px;
+        top: 50px;
+    }
+    .big-circle {
+        width: 120px;
+        top: -60px;
+    }
+    /* .pc-illustration {
+        width: 18%;
+        margin-left: 4%;
+    } 
+     .hologram2 {
+        width: 7%;
+    } */
+  }
+
+  @media (min-width: 1589px) and (max-width: 2000px) {
+      .pc-illustration {
+          top: -600px;
+      }
+      .hologram2 {
+          left: -70%;
+          top: -600px;
+      }
+  }
+
+  @media (min-width: 865px) and (max-width: 991px) {
+      h1 {
+          width: 80%;
+      }
+      .big-circle {
+        top: -250px;
+    }
+    .man-illustration {
+        left: 250px;
+        top: -150px;
+    }
+    .small-circle {
+        top: -100px;
+    }
+    .pc-illustration {
+        left: 7%;
+        top: -500px !important;
+     }
+  }
+
+  @media (min-width: 999px) and (max-width: 1199px) {
+      .big-circle {
+          top: -250px;
+      }
+      .man-illustration {
+          left: 300px;
+          top: -200px;
+      }
+  }
+
+  @media (min-width: 991px) and (max-width: 998.98px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .big-circle {
+        top: -350px !important;
+    }
+    .small-circle {
+        top: 100px;
+    }
+    .man-illustration {
+        left: 300px;
+        top: -200px;
+    }
+    .img1, .img01 {
+        margin-top: 3.5rem;
+    }
+  }
+
+/*iPad Pro */
+
+ @media (width: 1024px) {
+    .navbar .px-5 {
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+    .img2 {
+        margin-top: 0;
+    }
+    #elements-page {
+        height: 300px;
+    }
+    .homepage-section {
+        padding-top: 17rem !important;
+    }
+    .homepage-section h5 {
+        top: 400px;
+    }
+    .container-element {
+        left: -30px;
+    }
+    .elements-img {
+        width: 60%;
+    }
+    .elements-container {
+        padding-top: 100px;
+    }
+    .projects-title, .text {
+        width: 420px;
+    }
+    .mySlides {
+        position: relative;
+        right: 80px;
+    }
+    .next {
+        right: 160px;
+    }
+    .projects-elements img {
+        width: 70% !important;
+    }
+    .text {
+       letter-spacing: 0.2px;  
+       width: 350px; 
+    }
+    .text2 {
+        width: 80%;
+    }
+    .projects-title, .text, .line {
+        margin: 0 !important;
+        position: relative;
+        left: 120px;
+    }
+    .pc-illustration {
+        left: 10%;
+    }
+    .pc-phone {
+        top: -450px;
+    }
+    #contact-section {
+        height: 900px;
+    }
+    .hologram2 {
+        left: 10%;
+    }
+    .mySlides2 {
+        left: 3%;
+    }
+ }
+
+ /*Galaxy Fold*/
+ @media (min-width: 218px) and (max-width: 320px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    #homepage-illustration {
+        background-image: url(../SiteOvi/elements/iphonex.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hologram-full {
+        display: none;
+    }
+    .hologram-phone {
+        display: block;
+        float: right;
+    }
+    #hologram {
+        margin-top: 170px;
+        width: 30%;
+    }
+
+    @keyframes animateLogo {
+        from {
+            transform: translateX(0) translateY(80px);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0) translateY(120px);
+            opacity: 1;
+        }
+    } 
+    .homepage-section {
+        width: 100%;
+        padding-top: 5.5rem !important;
+        padding-right: 1.0rem;
+        position: absolute;
+    }
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h5 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .btn-lg {
+        display: none;
+    }
+    #projects-page {
+        height: 650px;
+    }
+    .next {
+        margin-right: -30px;
+        margin-top: -40px;
+    }
+    .container, .container-fluid {
+        padding-left: 0 !important;
+    }
+    .text {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+    .row-2 {
+        display: block;
+    }
+    .small-circle {
+        visibility: hidden;
+    }
+    .about-me-col {
+        align-items: center;
+    }
+    .about-me {
+        position: relative;
+        left: 20px;
+    }
+    .projects-title {
+        text-align: center;
+    }
+    .line {
+        visibility: hidden;
+    }
+    .text2 {
+        width: 100%;
+        font-size: 12px;
+    }
+    .img2 {
+        margin-top: 3.5rem;
+    }
+    .elements-container {
+        padding-top: 100px;
+    }
+    .img1 {
+        position: relative;
+        left: 15px;
+    }
+    .img01 {
+        position: relative;
+        right: 15px;
+    }
+    #projects-page .container {
+        padding-top: 0 !important;
+    }
+    .projects-elements-2 {
+        width: 40%;
+    }
+    .mySlides2 {
+        text-align: center;
+    }
+    .big-circle, .man-illustration {
+        visibility: hidden;
+    }
+    .div-contact {
+        width: 90%;
+    }
+    .contact-h4 {
+        font-size: 14px;
+    }
+    .form-control {
+        width: 80%;
+    }
+    .btn-send {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .send-icon {
+        margin: 0;
+    }
+    .pc-illustration {
+        visibility: hidden;
+    }
+    .pc-phone {
+        visibility: visible;
+        width: 80%;
+        position: relative;
+        top: -130px;
+        left: 70px;
+    }
+    .hologram2 {
+        visibility: hidden;
+    }
+    .container-footer {
+        width: 80%;
+    }
+    .footer {
+        height: 100px;
+    }
+    .mySlides2 {
+        text-align: center;
+        left: 3%;
+    }
+    .container-element {
+        left: 35px;
+    }
+ }
+
+  /*Surface Duo*/
+  @media (width: 540px) {
+      #projects-page {
+          height: 700px;
+      }
+      .elements-img {
+          width: 30%;
+      }
+      .container-element {
+          left: 90px;
+      }
+      #about-me {
+          height: 800px;
+      } 
+      .pc-phone {
+          top: -550px;
+          width: 55%;
+          left: 70px;
+      }
+      .hologram2 {
+          top: -650px !important;
+      }
+  }
+
+  @media (min-width: 769px) and (max-width: 1023px) {
+      .homepage-section {
+          padding-top: 6rem !important;
+      }
+      h5 {
+          top: 200px;
+          font-size: 1.3rem;
+      }
+      #hologram {
+          margin-top: 25%;
+          width: 20%;
+      }
+  }
+
+ @media (min-width: 385px) and (max-width: 409px) {
+       .man-illustration {
+           visibility: hidden;
+       }
+       .big-circle {
+           visibility: hidden;
+       }
+   }
+ 
+ @media (min-width: 319px) and (max-width: 332px) {
+    .man-illustration {
+        visibility: hidden;
+    }
+    .big-circle {
+        visibility: hidden;
+    }
+ }
+
+ @media (width: 360px) {
+     .container-footer {
+         width: 80%;
+     }
+     .btn-send {
+         padding-left: 0 !important;
+         padding-right: 0 !important;
+     }
+ }
+
+ @media (min-width: 1200px) and (max-width: 1400px) {
+     .text {
+         width: 350px;
+     }
+ }
